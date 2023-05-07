@@ -1,0 +1,12 @@
+div id="#{dom_id coin}"
+  table.table
+    thead
+      tr style="display: flex; flex-direction: row; justify-content: space-around"
+        th Name:
+        th Acronym:
+        th Image:
+    thead
+      tr style="display: flex; flex-direction: row; justify-content: space-around"
+        td =< coin.name
+        td =< coin.acronym
+        td =<image_tag coin.url_image

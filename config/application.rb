@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module Forex
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 7.
+    # config.load_defaults 7.
     
     config.generators do |g|
       g.template_engine :slim
