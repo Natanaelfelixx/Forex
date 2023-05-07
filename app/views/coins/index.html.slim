@@ -1,0 +1,11 @@
+p style="color: green" = notice
+
+h1 Coins
+
+#coins
+  - @coins.each do |coin|
+    == render coin
+    
+      = link_to "Show this coin", coin
+
+= link_to "New coin", new_coin_path, class: "btn btn-primary"
